@@ -1,0 +1,475 @@
+html{
+    scroll-behavior: smooth;
+}
+.goto{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: blue;
+    }
+.goto i {
+    font-size: 40px;
+    color: white;
+} 
+.navdiv{
+    background-color: rgb(86, 86, 248);
+}
+.navdiv ul{
+    list-style: none;
+}
+.navdiv li{
+    padding: 10px;
+}
+.navdiv a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navicon{
+    display:none;
+}
+@media(max-width:678px){
+    .navicon{
+        display: block;
+    }
+
+}
+.dobtn{
+    padding: 3px;
+    border-radius: 20px 20px;
+    background-color:rgb(68, 68, 240);
+    color:white;
+    font-size: 20px;
+    
+}
+.navbar-nav{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 250px;
+    font-family: sans-serif;
+}
+.logo i{
+    color:crimson;
+}
+ 
+ 
+ .banner{
+    
+    background-image: url(../img/shape-a.png);
+    background-size:100% 100% ;
+    background-color:   #F7F9FE ;
+    background-position: center;
+    
+}
+
+ 
+ .bg{
+     margin-top: 70px;
+ }
+ .topbanner{
+     display: flex;
+     justify-content: space-between;
+ }
+ .topbanner h1{
+     font-size: 70px;
+     color: rgb(109, 114, 114);
+     font-family: sans-serif;
+ }
+.topbanner span{
+    margin:10px 100px 0px 0px;
+    
+}
+.topbanner  h2{
+    color: red;
+}
+.bannerbtn{
+    font-size: 20px;
+}
+.bannerbtn button{
+    background-color: rgb(84, 84, 240);
+    font-size: 20px;
+    border-radius:  20px 20px;
+}
+
+.bannernum{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.bannernum .texnum .num{
+    font-weight: 900;
+    font-size: 25px;
+    color: gray;
+}
+.bannernum .texnum .tex{
+    font-weight: 700;
+    font-size: 15px;
+    color:rgb(56, 56, 179) 
+    
+}
+.bannerimg img{
+    height: 100%;
+    width: 100%;
+}
+@media(max-width:567px){
+    .bannerbtn a{
+        display: block;
+        text-align: center;
+    }
+    .bannernum  {
+        display: block;
+        text-align: center;
+    }
+}
+/*------------------------ section about----------------- */
+.abouttext h3{
+    color:blue
+}
+.abouttext h2{
+    color:rgb(109, 114, 114);
+    font-weight:bold ;
+}
+.abouttext .par1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.abouttext .par2{
+    font-size: 15px;
+    font-weight: 600;
+}
+.black {
+    color: black;
+}
+.aboutlist ul a li{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+}
+/* -----------------section transimtion --------------*/
+.transimition{
+    background-color:#dde9f1 ;
+}
+
+.transtext h3{
+    color:blue;
+    font-weight: 500;
+    padding-top: 20px;
+
+}
+.transtext h1{
+    color:rgb(155, 148, 148);
+    font-weight: bolder;
+    padding-top: 10px;
+
+}
+.transimg .hs{
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+}
+@media(max-width:567px){
+    .transtext h3{
+        font-size:18px;
+        
+    }
+    .transtext h1{
+        font-size:23px;
+        
+    }
+}
+/* --------section symptoms----------------- */
+.symptext h3{
+    color:blue;
+    font-weight: 500;
+    padding-top: 35px;
+
+}
+.symptext h1{
+    color:rgb(158, 152, 185);
+    font-weight: bolder;
+    padding-top: 10px;
+
+}
+.imgbox{
+    position: relative;
+    margin-top: 30px;
+}
+.imgbox1{
+    position: absolute;
+    top:-25px;
+    right:20px;
+    
+}
+.imgbox1 img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.attention{
+    display: flex;
+    justify-content: space-between;
+}
+.attention i{
+    color: blue;
+    font-size: 40px;
+    margin-right: 10px;
+}
+.attention p span{
+    color: blue;
+}
+@media(max-width:567px){
+    .symptext h3{
+        font-size: 15px;
+    }
+    .symptext h1{
+        font-size: 20px;
+    }
+}
+/*------------------ section prevention--------------- */
+.prevent{
+    background-color:#F7F9FE ;
+}
+.prevtext h3{
+    color:blue;
+    font-weight: 500;
+    padding-top: 30px;
+
+}
+.prevtext h1{
+    color:rgb(158, 119, 230);
+    font-weight: bold;
+    
+
+}
+.previmg1 img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.previmg2 .prev1{
+    color: rgb(39, 37, 37);
+    font-weight: bold;
+}
+.prevbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prevbtn .btna{
+    font-size: 30px;
+    margin: 40px 0px;
+}
+@media(max-width:567px){
+    .prevtext h3{    
+        font-size: 20px;    
+    }
+    .prevtext h1{
+        font-size: 30px;
+    }
+
+}
+/* ---------------section other */
+.other{
+    background-color:#F7F9FE;
+    
+  
+}
+
+.otherimg2{
+   
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+
+}
+.otherimg2 ul{
+    list-style: none;
+    margin-top: 20px;
+    
+}
+.otherimg4{
+    display: flex;
+    flex-direction: row;
+}
+.otherimg4 i{
+    padding: 3px;
+    color: green;
+    
+}
+.otherimg5 img{
+   width: 100%;
+   height: 100%;
+}
+@media(max-width:567px){
+    .otherimg3 h1{
+      font-size: 20px;
+    }
+}
+/*---------section follow-------------- */
+.follow{
+    background-color:#F7F9FE ;
+
+}
+
+.foltext h1{
+    padding-top: 40px;
+}
+.foltext .foltext2{
+    margin-top: 40px;
+}
+.foltext2 a{
+    font-size: 20px;
+}
+.folimg2{
+    margin: 40px 0px;
+}
+.folimg2 img{
+ width: 100%;
+ 
+ border-radius: 50%;
+}
+.folimg2 p{
+font-size: 18px;
+font-weight: bold;
+}
+@media(max-width:567px){
+    .folimg2 img{
+        width: 40%;
+    }
+}
+/* sectiontreatment */
+.treatmen{
+    background-color:#2766bb ;
+    background-image: url(../img/shape-a.png);
+    background-size: cover;
+    color: white;
+    
+    
+}
+
+.treatright ul{
+    list-style: none;
+}
+.otherimg4 i{
+    padding: 3px;
+    color: white;
+    
+}
+.treatright{
+    background-color: rgb(30, 30, 87);
+    padding: 50px;
+    border-radius: 10px;
+
+}
+.treattext h3{
+    color: cyan;
+
+}
+@media(max-width:567px){
+    .treattext h1{
+        font-size: 20px;
+    }
+    .treattext h3{
+        font-size: 15px;
+    }
+}
+/* section protect */
+.protect{
+    background-color:#F7F9FE ;
+    
+}
+.protecttext h3{
+    color: blue;
+    padding-top: 30px;
+}
+.protectimg1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+.protectimg1 img{
+    width:40%;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+.protectimg1 p{
+    font-size: 15px;
+    padding-top: 50px;
+} 
+.protectimg2 img{
+    width: 100%;
+    height: 100%;
+}
+/* section faq */
+.faqtext h3{
+    padding-top: 20px;
+    color:blue;
+}
+.faqtext h1{
+    padding:20px 0px ;
+}
+@media(max-width:567px){
+    .faqtext h3{
+        font-size: 15px;
+    }
+    .faqtext h1{
+        font-size: 18px;
+    }
+}
+/* section last */
+.last{
+    background-color: #F7F9FE;
+}
+.last h3{
+    color: blue;
+    padding-top: 20px;
+}
+.last h1{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.lastimg .lastimgt{
+    font-weight: bold;
+    color: rgb(146, 141, 141);
+}
+.foot{
+    background-image: url(../img/shape-a.png);
+    background-size: cover;
+    background-color: rgb(30, 30, 58);
+    color:rgb(227, 239, 243);
+}
+.footbox .log i{
+    color:red
+}
+.footbox .log h3{
+    color:white;
+}
+.footbox .log2 i{
+    color:white;
+    font-size: 20px;
+}
+.footlist h3{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footlist ul{
+    list-style: none;
+    padding: 0px 10px;
+}
+.footlist a{
+    
+    color: white;
+}
+.foottext{
+    font-size: 15px;
+}
+.foottext span{
+    color: white;
+    font-size: 20px;
+}
